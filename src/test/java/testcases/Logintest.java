@@ -68,7 +68,7 @@ public class Logintest extends BaseClass{
 		lp.enterpswrd(password);
 		Thread.sleep(3000);
 		lp.submitbtn();
-		
+		com.takescreenshot(email, driver);
 		
 		
 		

@@ -24,7 +24,7 @@ public class TitleValidationTest extends BaseClass {
 		tvp.menu5();
 		tvp.menu6();
 		tvp.menu7();
-		
+		com.takescreenshot("menu", driver);
 		
 	}
 	

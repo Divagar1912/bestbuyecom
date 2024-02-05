@@ -1,54 +1,556 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-03T23:40:43 IST" name="Default suite" finished-at="2024-02-03T23:41:39 IST" duration-ms="56294">
+  <suite started-at="2024-02-04T14:07:38 IST" name="Default suite" finished-at="2024-02-04T14:13:48 IST" duration-ms="369516">
     <groups>
     </groups>
-    <test started-at="2024-02-03T23:40:43 IST" name="Default test" finished-at="2024-02-03T23:41:39 IST" duration-ms="56294">
-      <class name="testcases.AddItemsToCartTest">
-        <test-method is-config="true" signature="open()[pri:0, instance:testcases.AddItemsToCartTest@5b7a5baa]" started-at="2024-02-03T23:40:43 IST" name="open" finished-at="2024-02-03T23:40:47 IST" duration-ms="4198" status="PASS">
+    <test started-at="2024-02-04T14:07:38 IST" name="Default test" finished-at="2024-02-04T14:13:48 IST" duration-ms="369516">
+      <class name="testcases.Signuptest">
+        <test-method is-config="true" signature="open()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:07:44 IST" name="open" finished-at="2024-02-04T14:07:51 IST" duration-ms="6942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-        <test-method signature="additems()[pri:0, instance:testcases.AddItemsToCartTest@5b7a5baa]" started-at="2024-02-03T23:40:47 IST" name="additems" finished-at="2024-02-03T23:41:38 IST" duration-ms="51259" status="FAIL">
-          <exception class="org.openqa.selenium.NoAlertPresentException">
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:07:51 IST" name="signup" data-provider="signupdata" finished-at="2024-02-04T14:08:21 IST" duration-ms="30529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Divagar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[divagar.xploresense@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Qwerty12345*]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Qwerty12345*]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8.667230925E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Best Buy: Create an Account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:08:21 IST" name="close" finished-at="2024-02-04T14:08:23 IST" duration-ms="1306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:08:23 IST" name="open" finished-at="2024-02-04T14:08:30 IST" duration-ms="7480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:08:30 IST" name="signup" data-provider="signupdata" finished-at="2024-02-04T14:08:53 IST" duration-ms="22946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Divagar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[V]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[divagar.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Qwerty12345*]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Qwerty12345*]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8.667230925E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Best Buy: Create an Account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:08:53 IST" name="close" finished-at="2024-02-04T14:08:53 IST" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:08:53 IST" name="open" finished-at="2024-02-04T14:08:57 IST" duration-ms="4011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:08:57 IST" name="signup" data-provider="signupdata" finished-at="2024-02-04T14:09:23 IST" duration-ms="25865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Divagar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[V]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[divagar.xploresense@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Qwerty12345*]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Qwerty12345*]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8.667230925E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Best Buy: Create an Account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:09:23 IST" name="close" finished-at="2024-02-04T14:09:24 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:09:24 IST" name="open" finished-at="2024-02-04T14:09:30 IST" duration-ms="5732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:09:30 IST" name="signup" data-provider="signupdata" finished-at="2024-02-04T14:09:59 IST" duration-ms="28857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Divagar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[V]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[divagar.xploresense@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Qwer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Qwer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8.667230925E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Best Buy: Create an Account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:09:59 IST" name="close" finished-at="2024-02-04T14:09:59 IST" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:09:59 IST" name="open" finished-at="2024-02-04T14:10:05 IST" duration-ms="5659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:10:05 IST" name="signup" data-provider="signupdata" finished-at="2024-02-04T14:10:29 IST" duration-ms="23732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Divagar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[V]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[divagar.xploresense@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Qwerty12345*]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8.667230925E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Best Buy: Create an Account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:10:29 IST" name="close" finished-at="2024-02-04T14:10:29 IST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:10:29 IST" name="open" finished-at="2024-02-04T14:10:38 IST" duration-ms="8418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:10:38 IST" name="signup" data-provider="signupdata" finished-at="2024-02-04T14:11:12 IST" duration-ms="34408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Divagar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[V]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[divagar.xploresense@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Qwerty12345*]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8.667230925E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Best Buy: Create an Account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:11:12 IST" name="close" finished-at="2024-02-04T14:11:14 IST" duration-ms="1594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:11:14 IST" name="open" finished-at="2024-02-04T14:11:18 IST" duration-ms="4461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:11:18 IST" name="signup" data-provider="signupdata" finished-at="2024-02-04T14:11:36 IST" duration-ms="18244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Divagar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[V]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[divagar.xploresense@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8.667230925E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Best Buy: Create an Account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:11:36 IST" name="close" finished-at="2024-02-04T14:11:41 IST" duration-ms="4907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:11:41 IST" name="open" finished-at="2024-02-04T14:11:52 IST" duration-ms="11165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:11:52 IST" name="signup" data-provider="signupdata" finished-at="2024-02-04T14:12:21 IST" duration-ms="29017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Divagar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[V]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[divagar.xploresense@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Qwerty12345*]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Qwerty12345*]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[866723092]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Best Buy: Create an Account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:12:21 IST" name="close" finished-at="2024-02-04T14:12:22 IST" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:12:22 IST" name="open" finished-at="2024-02-04T14:12:26 IST" duration-ms="3681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:12:26 IST" name="signup" data-provider="signupdata" finished-at="2024-02-04T14:12:42 IST" duration-ms="16333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Divagar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[V]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[divagar.xploresense@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Qwerty12345*]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Qwerty12345*]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[86672Qwert]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Best Buy: Create an Account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:12:42 IST" name="close" finished-at="2024-02-04T14:12:43 IST" duration-ms="1113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:12:43 IST" name="open" finished-at="2024-02-04T14:12:52 IST" duration-ms="9126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:12:52 IST" name="signup" data-provider="signupdata" finished-at="2024-02-04T14:13:15 IST" duration-ms="22396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Divagar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[V]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[divagar.xploresense@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Qwerty12345*]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Qwerty12345*]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[hjbhjjhvvhj]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Best Buy: Create an Account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:13:15 IST" name="close" finished-at="2024-02-04T14:13:17 IST" duration-ms="2197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:13:17 IST" name="open" finished-at="2024-02-04T14:13:25 IST" duration-ms="8364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:13:25 IST" name="signup" data-provider="signupdata" finished-at="2024-02-04T14:13:46 IST" duration-ms="21020" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
             <message>
-              <![CDATA[no such alert
-  (Session info: chrome=121.0.6167.86)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6d19a578809edfd5e10942e9f827ed30, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\new\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57981}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57981/devtoo..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6d19a578809edfd5e10942e9f827ed30]]>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
-  (Session info: chrome=121.0.6167.86)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6d19a578809edfd5e10942e9f827ed30, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\new\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57981}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57981/devtoo..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6d19a578809edfd5e10942e9f827ed30
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:680)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:684)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1252)
-at pageobjects.AddItemsToCartPage.Select_item_under_menu(AddItemsToCartPage.java:105)
-at testcases.AddItemsToCartTest.additems(AddItemsToCartTest.java:21)
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
+at pageobjects.Signuppage.entermobileno(Signuppage.java:114)
+at testcases.Signuptest.signup(Signuptest.java:99)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -79,15 +581,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- additems -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcases.AddItemsToCartTest@5b7a5baa]" started-at="2024-02-03T23:41:38 IST" name="close" finished-at="2024-02-03T23:41:39 IST" duration-ms="763" status="PASS">
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Signuptest@6025e1b6]" started-at="2024-02-04T14:13:47 IST" name="close" finished-at="2024-02-04T14:13:48 IST" duration-ms="1134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- testcases.AddItemsToCartTest -->
+      </class> <!-- testcases.Signuptest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

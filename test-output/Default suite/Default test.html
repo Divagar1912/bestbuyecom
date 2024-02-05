@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>10/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Feb 03 23:40:43 IST 2024</td>
+<td>Started on:</td><td>Sun Feb 04 14:07:38 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>56 seconds (56294 ms)</td>
+<tr><td>Total time:</td><td>369 seconds (369516 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,32 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.AddItemsToCartTest.additems()'><b>additems</b><br>Test class: testcases.AddItemsToCartTest</td>
-<td><div><pre>org.openqa.selenium.NoAlertPresentException: no such alert
-  (Session info: chrome=121.0.6167.86)
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6d19a578809edfd5e10942e9f827ed30, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\new\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57981}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57981/devtoo..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6d19a578809edfd5e10942e9f827ed30
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:680)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:684)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1252)
-	at pageobjects.AddItemsToCartPage.Select_item_under_menu(AddItemsToCartPage.java:105)
-	at testcases.AddItemsToCartTest.additems(AddItemsToCartTest.java:21)
+<td title='testcases.Signuptest.signup()'><b>signup</b><br>Test class: testcases.Signuptest<br>Parameters: , , , , , , null</td>
+<td><div><pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
+	at pageobjects.Signuppage.entermobileno(Signuppage.java:114)
+	at testcases.Signuptest.signup(Signuptest.java:99)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -130,32 +114,16 @@ Session ID: 6d19a578809edfd5e10942e9f827ed30
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace379115456", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace379115456'><pre>org.openqa.selenium.NoAlertPresentException: no such alert
-  (Session info: chrome=121.0.6167.86)
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6d19a578809edfd5e10942e9f827ed30, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\new\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57981}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57981/devtoo..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6d19a578809edfd5e10942e9f827ed30
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:680)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:684)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1252)
-	at pageobjects.AddItemsToCartPage.Select_item_under_menu(AddItemsToCartPage.java:105)
-	at testcases.AddItemsToCartTest.additems(AddItemsToCartTest.java:21)
+</pre></div><a href='#' onClick='toggleBox("stack-trace994009815", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace994009815'><pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
+	at pageobjects.Signuppage.entermobileno(Signuppage.java:114)
+	at testcases.Signuptest.signup(Signuptest.java:99)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -185,8 +153,67 @@ Session ID: 6d19a578809edfd5e10942e9f827ed30
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>51</td>
-<td>testcases.AddItemsToCartTest@5b7a5baa</td></tr>
+<td>21</td>
+<td>testcases.Signuptest@6025e1b6</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.Signuptest.signup()'><b>signup</b><br>Test class: testcases.Signuptest<br>Parameters: Divagar, V, divagar.xploresense@gmail.com, Qwer, Qwer, 8.667230925E9, Best Buy: Create an Account</td>
+<td></td>
+<td>28</td>
+<td>testcases.Signuptest@6025e1b6</td></tr>
+<tr>
+<td title='testcases.Signuptest.signup()'><b>signup</b><br>Test class: testcases.Signuptest<br>Parameters: Divagar, , divagar.xploresense@gmail.com, Qwerty12345*, Qwerty12345*, 8.667230925E9, Best Buy: Create an Account</td>
+<td></td>
+<td>30</td>
+<td>testcases.Signuptest@6025e1b6</td></tr>
+<tr>
+<td title='testcases.Signuptest.signup()'><b>signup</b><br>Test class: testcases.Signuptest<br>Parameters: Divagar, V, divagar.xploresense@gmail.com, , Qwerty12345*, 8.667230925E9, Best Buy: Create an Account</td>
+<td></td>
+<td>23</td>
+<td>testcases.Signuptest@6025e1b6</td></tr>
+<tr>
+<td title='testcases.Signuptest.signup()'><b>signup</b><br>Test class: testcases.Signuptest<br>Parameters: Divagar, V, divagar.xploresense@gmail.com, Qwerty12345*, , 8.667230925E9, Best Buy: Create an Account</td>
+<td></td>
+<td>34</td>
+<td>testcases.Signuptest@6025e1b6</td></tr>
+<tr>
+<td title='testcases.Signuptest.signup()'><b>signup</b><br>Test class: testcases.Signuptest<br>Parameters: Divagar, V, divagar.xploresense@gmail.com, Qwerty12345*, Qwerty12345*, 866723092, Best Buy: Create an Account</td>
+<td></td>
+<td>29</td>
+<td>testcases.Signuptest@6025e1b6</td></tr>
+<tr>
+<td title='testcases.Signuptest.signup()'><b>signup</b><br>Test class: testcases.Signuptest<br>Parameters: Divagar, V, divagar.xploresense@gmail.com, , , 8.667230925E9, Best Buy: Create an Account</td>
+<td></td>
+<td>18</td>
+<td>testcases.Signuptest@6025e1b6</td></tr>
+<tr>
+<td title='testcases.Signuptest.signup()'><b>signup</b><br>Test class: testcases.Signuptest<br>Parameters: Divagar, V, divagar.xploresense@gmail.com, Qwerty12345*, Qwerty12345*, hjbhjjhvvhj, Best Buy: Create an Account</td>
+<td></td>
+<td>22</td>
+<td>testcases.Signuptest@6025e1b6</td></tr>
+<tr>
+<td title='testcases.Signuptest.signup()'><b>signup</b><br>Test class: testcases.Signuptest<br>Parameters: Divagar, V, divagar.com, Qwerty12345*, Qwerty12345*, 8.667230925E9, Best Buy: Create an Account</td>
+<td></td>
+<td>22</td>
+<td>testcases.Signuptest@6025e1b6</td></tr>
+<tr>
+<td title='testcases.Signuptest.signup()'><b>signup</b><br>Test class: testcases.Signuptest<br>Parameters: Divagar, V, divagar.xploresense@gmail.com, Qwerty12345*, Qwerty12345*, 8.667230925E9, Best Buy: Create an Account</td>
+<td></td>
+<td>25</td>
+<td>testcases.Signuptest@6025e1b6</td></tr>
+<tr>
+<td title='testcases.Signuptest.signup()'><b>signup</b><br>Test class: testcases.Signuptest<br>Parameters: Divagar, V, divagar.xploresense@gmail.com, Qwerty12345*, Qwerty12345*, 86672Qwert, Best Buy: Create an Account</td>
+<td></td>
+<td>16</td>
+<td>testcases.Signuptest@6025e1b6</td></tr>
 </table><p>
 </body>
 </html>

@@ -20,7 +20,7 @@ public class AddItemsToCartTest extends BaseClass {
 		aitcp.Search_and_Select_item();
 		aitcp.Select_item_under_menu();
 		aitcp.select_item_under_brand();
-		
+		com.takescreenshot("add items", driver);
 	}
 	
 	

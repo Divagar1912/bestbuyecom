@@ -19,7 +19,7 @@ public class BrokenLinkTest extends BaseClass {
 	
 	blp.select_country();
 	blp.chk_brkn_link();
-	
+	com.takescreenshot("brokenlink", driver);
 	
 	
 	}

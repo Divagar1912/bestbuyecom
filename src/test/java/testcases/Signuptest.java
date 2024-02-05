@@ -77,12 +77,11 @@ public class Signuptest extends BaseClass {
 		
 		return data;
 		
-		
 	}
 
 
 	@Test (dataProvider = "signupdata" )
-	public void signup(String firstname, String lastname, String email, String password, String cnfrmpassword , String cnfrmpasssword, String mobile) throws InterruptedException, IOException {
+	public void signup  (String firstname, String lastname, String email, String password, String cnfrmpassword , String cnfrmpasssword, String mobile) throws InterruptedException, IOException {
 		
 		//create object for signuppage class
 		
@@ -99,6 +98,7 @@ public class Signuptest extends BaseClass {
 		sp.entercnfrmpassword(cnfrmpasssword);
 		sp.entermobileno(mobile);
 		sp.clickonsubmit();
+		com.takescreenshot(firstname, driver);
 		
 	
 		

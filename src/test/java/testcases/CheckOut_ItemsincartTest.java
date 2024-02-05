@@ -19,6 +19,7 @@ public class CheckOut_ItemsincartTest extends BaseClass {
 		
 		ckout.select_country();
 		ckout.Search_and_Select_item();
+		com.takescreenshot("payment", driver);
 		
 	}
 	

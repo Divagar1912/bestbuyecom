@@ -18,7 +18,7 @@ public class BottomLinkTest extends BaseClass {
 		BottomLinkPage btmlp = new BottomLinkPage(driver);
 		btmlp.select_country();
 		btmlp.bottomlink();
-		
+		com.takescreenshot("bottomlink", driver);
 	}
 	
 }
